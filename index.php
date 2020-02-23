@@ -15,6 +15,5 @@
         include 'indcludes/pages.php';
         include 'indcludes/footer.php';
     ?>
-
     </body>
 </html>

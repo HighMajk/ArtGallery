@@ -1,4 +1,3 @@
-<?php
 <div id="footer">
     <div class="center-website">
         <div class="footer-box-website">

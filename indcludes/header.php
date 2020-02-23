@@ -1,4 +1,3 @@
-<?php
 <div id="header-website">
     <div class="center-website">
         <div class="logo-website">
