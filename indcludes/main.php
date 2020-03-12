@@ -1,4 +1,4 @@
-<div id="banner-website"></div>
+<img src="img/IMg_0292.JPG" id="banner-website">
 <div id="images-website">
     <h2 class="h2-text-website">Witaj na Mery Art Gallery.  Znajdź tutaj dla siebie coś wyjątkowego! Mamy tu niesamowite kolekcje w przystępnej cenie.</h2>
     <div class="image-box-website">

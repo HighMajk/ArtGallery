@@ -1,0 +1,31 @@
+.content-item{
+    width: 1000px;
+    min-height: 80vh;
+    margin: auto;
+    margin-top: 20px;
+}
+.image-item{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    float: left;
+    background-color: #F9F9F9;
+}
+.image-item:hover{
+    object-fit: scale-down;
+}
+#info-box-item{
+    float:left;
+    width: 450px;
+    height: 300px;
+    padding: 10px 50px;
+}
+#add-button-item{
+    padding: 20px;
+    background-color: black;
+    color: #FFF;
+    width: 250px;
+    text-align: center;
+}
+
+

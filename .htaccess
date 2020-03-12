@@ -5,7 +5,5 @@ Deny from all
 </FilesMatch>
 
 RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([a-zA-Z-_0-9]+)/([a-zA-Z-_0-9]+)/?$ index.php?page=$1&id=$2 [L]
-RewriteRule ^([a-zA-Z-_0-9]+)/?$ index.php?page=$1 [L]
+RewriteRule ^main index.php?page=main [L]
+RewriteRule ^art index.php?page=art [L]

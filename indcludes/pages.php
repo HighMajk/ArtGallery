@@ -6,12 +6,12 @@
         else if($_GET['page']=="art"){
             include 'images.php';
         }
+        else if($_GET['page']=="item") {
+            include 'item.php';
+        }
         else{
             include('main.php');
         }
-    }
-    else if(isSet($_GET['item'])){
-        
     }
     else{
         include('main.php');
