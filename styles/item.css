@@ -27,5 +27,12 @@
     width: 250px;
     text-align: center;
 }
+.squere{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    margin: 20px;
+}
+
 
 

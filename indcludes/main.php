@@ -1,32 +1,85 @@
-<img src="img/IMg_0292.JPG" id="banner-website">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/IMG_0292.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/IMG_0306.JPEG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/IMG_0304.JPEG" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<div class="container">
+    <h2 class="h2-text-website col-sm-12 space">Witaj na Mery Art Gallery.  Znajdź tutaj dla siebie coś wyjątkowego! Mamy tu niesamowite kolekcje w przystępnej cenie.</h2>
+    <div class="row space">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <img src="img/IMG_0292.JPG" class="image-website">
+            <h3 class="image-name">Koleś przy lapku</h3>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <img src="img/IMG_0304.JPEG" class="image-website">
+            <h3 class="image-name">książki otwarte</h3>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <img src="img/IMG_0305.JPEG" class="image-website">
+            <h3 class="image-name">kawa na stole</h3>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <img src="img/IMG_0306.JPEG" class="image-website">
+            <h3 class="image-name">Tajemniczt nos</h3>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <img src="img/IMG_0307.JPEG" class="image-website">
+            <h3 class="image-name">Ptak o poranku</h3>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <img src="img/IMG_0307.JPEG" class="image-website">
+            <h3 class="image-name">Ptak o poranku</h3>
+        </div>
+    </div>
+</div>
+
+<!--
 <div id="images-website">
     <h2 class="h2-text-website">Witaj na Mery Art Gallery.  Znajdź tutaj dla siebie coś wyjątkowego! Mamy tu niesamowite kolekcje w przystępnej cenie.</h2>
     <div class="image-box-website">
         <img src="img/IMG_0292.JPG" class="image-website">
-        <h3 class="h3-text-website">Koleś przy lapku</h3>
+        <h3 class="image-name">Koleś przy lapku</h3>
     </div>
     <div class="image-box-website">
         <img src="img/IMG_0304.JPEG" class="image-website">
-        <h3 class="h3-text-website">książki otwarte</h3>
+        <h3 class="image-name">książki otwarte</h3>
     </div>
     <div class="image-box-website">
         <img src="img/IMG_0305.JPEG" class="image-website">
-        <h3 class="h3-text-website">kawa na stole</h3>
+        <h3 class="image-name">kawa na stole</h3>
     </div>
     <div class="image-box-website">
         <img src="img/IMG_0306.JPEG" class="image-website">
-        <h3 class="h3-text-website">Tajemniczt nos</h3>
+        <h3 class="image-name">Tajemniczt nos</h3>
     </div>
     <div class="image-box-website">
         <img src="img/IMG_0307.JPEG" class="image-website">
-        <h3 class="h3-text-website">Ptak o poranku</h3>
+        <h3 class="image-name">Ptak o poranku</h3>
     </div>
     <div class="image-box-website">
         <img src="https://picsum.photos/id/60/300/300" class="image-website">
-        <h3 class="h3-text-website">Komputerowa nostalgia</h3>
+        <h3 class="image-name">Komputerowa nostalgia</h3>
     </div>
 </div>
 <div style="clear:both;"></div>
+
 <div id="artists-website">
     <div class="center-website">
          <h1 class="h1-arts-website">Nasi Artyści</h1>
@@ -50,3 +103,4 @@
          <div style="clear:both;"></div>
     </div>
 </div>
+-->

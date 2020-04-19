@@ -3,8 +3,9 @@
 
 ?>
    
-
-   <div id="container">
+<div class="wrapper">
+<div class="container">
+    <div class="row no-gutters">
         <?php
             $conn = mysqli_connect('localhost', 'root', '');
             $conn->query("SET NAMES 'utf8'");
@@ -19,6 +20,7 @@
                     $sizeY = $row['sizeY'];
                     $sizeUnit = $row['sizeUnit'];
                     $image = $row['image'];
+                    echo '<div class=" item-container col-sm-12 col-md-6 col-lg-3">';
                     echo '<a href="?page=item&id='.$id.'">';
                     echo '<div class="item-box-shop">';
                     echo '<img src="img/'.$image.'" class="item-image-shop">';
@@ -28,8 +30,11 @@
                     echo '<div class="price-shop">'.$price.' PLN</div>';
                     echo '</div>';
                     echo '</a>';
+                    echo '</div>';
+
                 }
             mysqli_close($conn);
         ?>
-    <div style="clear:both;"></div>
+   </div>
+</div>
 </div>
