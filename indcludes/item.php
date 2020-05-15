@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="aspect-ratio-box">
-                    <?php echo '<img src="img/'.$image.'" class="image-item">';?>
+                    <?php echo '<img src="img/uploads/'.$image.'" class="image-item">';?>
                 </div>
 
             </div>

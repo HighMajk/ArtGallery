@@ -15,6 +15,13 @@
     top: 17px;
     font-size: 28px;
 }
+.full-screen{
+    margin: 0px;
+    padding: 0px;
+}
+.tab-pane{
+    padding: 20px;
+}
 .nav-pills{
     box-shadow: 1px 0px 5px -4px black;
     height: calc(100vh - 60px);
@@ -39,3 +46,92 @@ a:hover{
     color: #969696;
     text-decoration: none;
 }
+.add-image-btn{
+    position: relative;
+    width: 110px;
+    height: 110px;
+    color: gray;
+    border: dashed 5px gray;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.add-image-btn img{
+    border-radius: 15px;
+    padding: 5px;
+}
+.add-image-btn i{
+    font-size: 50px;
+    padding: 25px;
+}
+.add-image-btn input[type=file]{
+    display: none;
+}
+.button-add{
+    background-color: #0062cc;
+    color: #FFF;
+    padding: 15px 20px;
+    margin: 0px 0px 15px 0px;
+
+}
+.tab-content{
+    height: calc(100vh - 60px);
+    overflow-x: scroll;
+}
+.item-box{
+
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed grey;
+}
+.item-box img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+.item-box td.name{
+    vertical-align: bottom;
+}
+.item-box td.author{
+    vertical-align: top;
+}
+.itembox td.delete{
+    float: right;
+}
+.item-box .button-delete, .button-info, .button-edit{
+    padding: 15px;
+    margin: 20px 0px 0px 5px;
+    color: #FFF;
+}
+.item-box .button-delete{
+    background-color: #cb191d;
+}
+.item-box .button-info{
+    background-color: #0881c3;
+}
+.item-box .button-edit{
+    background-color: #17cb38;
+}
+.item-box .fas{
+    font-size: 22px;
+    transform: translateY(2px);
+}
+.item-box .card-body{
+    margin-top: 10px;
+}
+.item-box .collapse .btn{
+    margin: -5px 0px 0px 5px;
+}
+.full{
+    width: 100%;
+    max-width: 300px;
+}
+.small{
+    width: 100px;
+}
+
+

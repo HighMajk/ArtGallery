@@ -20,7 +20,7 @@
                     echo '<div class=" item-container col-sm-12 col-md-6 col-lg-3">';
                     echo '<a href="?page=item&id='.$id.'">';
                     echo '<div class="item-box-shop">';
-                    echo '<img src="img/'.$image.'" class="item-image-shop">';
+                    echo '<img src="img/uploads/'.$image.'" class="item-image-shop">';
                     echo '<h2>'.$name.'</h2>';
                     echo '<h3>'.$author.'</h3>';
                     echo '<h4>'. $sizeX.' '.$sizeUnit.' x '.$sizeY.' '.$sizeUnit.'</h4>';
