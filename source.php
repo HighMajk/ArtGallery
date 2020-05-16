@@ -94,14 +94,15 @@
                             $imageName = 'IMG_'.date("dmYHis").rand(000, 999).'.jpg';
                             if($errors == 0){
                                 if(move_uploaded_file($_FILES['image']['tmp_name'],'./img/uploads/'.$imageName)){
-                                    if(mysqli_query($conn,"INSERT INTO items (id, name, type, sizeX, sizeY, sizeUnit, price, author, description, image) VALUES (NULL, '$name', '1', '$sizeX', '$sizeY', '$sizeUnit', '$price', '$author', '$description', '$imageName')")){
+                                    $date = Date("Y-m-d H:i:s");
+                                    if(mysqli_query($conn,"INSERT INTO items (id, name, type, sizeX, sizeY, sizeUnit, price, author, description, image, createDate) VALUES (NULL, '$name', '1', '$sizeX', '$sizeY', '$sizeUnit', '$price', '$author', '$description', '$imageName', '$date')")){
                                         //success: item added
                                         $_SESSION['itemSuccess'] = "Succes: Przedmiot został dodany pomyślnie";
                                         header('Location: /ADMINPANEL');
                                     }
                                     else{
                                         $errorInfo = "Nie udało się dodać przedmiotu";
-
+                                        unlink("./img/uploads/".$imageName);
                                         $_SESSION['itemError'] = "ERROR: nie udało się dodac przedmiotu. ERRORS: ".$errorInfo;
                                         header('Location: /ADMINPANEL');
                                     }
